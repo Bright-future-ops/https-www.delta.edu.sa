@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="تكريم أوائل Grade 8  برعاية مدارس دلتا">
+<title>أبطال Grade 8  | مدارس دلتا</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4jFszhkGC96yvvUUCjftWOLJpovqEo88qVpHqUVzlmA&s=10">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#061b49;--blue:#8fc9e3;--gold:#c9a34a;--ink:#14213d;--paper:#f5f9fc}
+*{box-sizing:border-box}
+body{margin:0;font-family:Cairo,Arial,sans-serif;background:linear-gradient(145deg,#e8f5fb,#f8fafc 52%,#e7f1f7);color:var(--ink);overflow-x:hidden}
+.topline{ background:linear-gradient(90deg,var(--gold),var(--navy),var(--blue),var(--gold))}
+header{max-width:1120px;margin:auto;padding:18px 22px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+.brand{display:flex;align-items:center;gap:12px;color:var(--navy);font-weight:900}
+.brand img{width:110px;height:auto;object-fit:contain}
+.brand span{display:block;font-size:12px;letter-spacing:.5px;color:#66758b}
+.sponsor{background:var(--navy);color:#fff;border:1px solid var(--gold);border-radius:30px;padding:8px 18px;font-size:13px;font-weight:800}
+main{max-width:1120px;margin:18px auto 55px;padding:0 20px}
+.hero{position:relative;text-align:center;padding:48px 20px 42px;border-radius:28px;color:#fff;background:linear-gradient(130deg,#061b49,#123c70 65%,#397da1);box-shadow:0 18px 40px #061b4924;overflow:hidden}
+.hero:before,.hero:after{content:"✦";position:absolute;color:#d7b45d88;font-size:100px}
+.hero:before{top:-22px;right:35px}.hero:after{bottom:-38px;left:35px}
+.eyebrow{display:inline-block;border:1px solid #d7b45d99;color:#f4d98f;border-radius:30px;padding:6px 17px;font-size:13px;font-weight:800}
+h1{font-size:clamp(34px,6vw,60px);margin:14px 0 5px;font-weight:900;line-height:1.4}
+h1 span{color:#f1d17c}.subtitle{margin:0;color:#e4f2fb;font-size:clamp(16px,2.5vw,22px);font-weight:700}
+.stars{margin-top:16px;color:#f1d17c;letter-spacing:8px;font-size:23px}
+.intro{text-align:center;margin:30px auto 20px;max-width:850px}
+.intro h2{color:var(--navy);font-size:25px;margin:0 0 8px;font-weight:900}
+.intro p{line-height:2;color:#53647c;margin:0;font-weight:600}
+.ticker-section{margin:28px auto 0;background:#fff;border:1px solid #dce7f0;border-radius:24px;padding:22px 0 18px;box-shadow:0 12px 30px #0b2c5010;overflow:hidden}
+.ticker-heading{text-align:center;padding:0 16px 16px}
+.ticker-heading h2{margin:0;color:var(--navy);font-size:27px;font-weight:900}
+.ticker-heading p{margin:4px 0 0;color:#66758b;font-weight:700;font-size:14px}
+.ticker-viewport{overflow:hidden;direction:ltr;position:relative;padding:8px 0 16px}
+.ticker-track{display:flex;width:max-content;animation:scroll-right 95s linear infinite}
+.ticker-viewport:hover .ticker-track{animation-play-state:paused}
+.ticker-group{display:flex;gap:14px;padding-left:14px}
+.student{direction:rtl;min-width:235px;background:linear-gradient(145deg,#f5fbff,#fff);border:1px solid #d8e5ef;border-bottom:4px solid var(--gold);border-radius:16px;padding:15px 17px;text-align:center;box-shadow:0 6px 16px #0b2c500c}
+.student strong{display:block;color:var(--navy);font-size:15px;white-space:normal;line-height:1.7;min-height:52px}
+.student small{display:inline-block;margin-top:8px;background:#e8f3fa;color:var(--navy);padding:4px 13px;border-radius:20px;font-weight:900;font-size:14px}
+.medal{display:block;font-size:23px;margin-bottom:5px}
+@keyframes scroll-right{from{transform:translateX(-50%)}to{transform:translateX(0)}}
+.note{text-align:center;color:#77859a;font-size:12px;margin:10px 12px 0}
+.awards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:24px auto;max-width:850px}
+.awards div{background:#fff;border:1px solid #e1eaf1;border-radius:17px;padding:17px 10px;text-align:center}
+.awards b{display:block;font-size:25px;color:#b38a35}.awards span{font-size:13px;color:#5e6e83;font-weight:700}
+.teacher{margin:34px auto 0;max-width:850px;background:#fff;border:1px solid #e1eaf1;border-radius:24px;padding:18px;display:flex;align-items:center;gap:22px;box-shadow:0 12px 30px #0b2c5010}
+.teacher-photo{width:145px;height:145px;flex:0 0 145px;border-radius:18px;overflow:hidden;border:4px solid #e8d39c;background:#e8f4fa}
+.teacher-photo img{width:100%;height:100%;object-fit:cover;object-position:center 18%}
+.teacher-info h2{margin:0;color:var(--navy);font-size:23px;font-weight:900}
+.teacher-info p{margin:5px 0 10px;color:#65748a;font-weight:700}
+.teacher-info a{display:inline-block;color:#fff;background:var(--navy);padding:8px 17px;border-radius:22px;text-decoration:none;font-size:13px;font-weight:800}
+.closing{text-align:center;margin:28px auto 0;color:var(--navy);font-weight:900;font-size:18px;line-height:2}
+.photo-card{max-width:900px;margin:35px auto 0;background:white;border:1px solid #e9edf5;border-radius:25px;padding:14px;box-shadow:0 15px 45px #17233f12}
+    .photo-frame{position:relative;min-height:280px;display:flex;align-items:center;justify-content:center;border-radius:17px;overflow:hidden;background:linear-gradient(135deg,#e9efff,#fff5d9);border:2px dashed #c7d2e8}
+    .photo-frame img{display:block;width:100%;max-height:min(72vh,680px);height:auto;object-fit:contain;object-position:center}
+    .placeholder{text-align:center;padding:50px 20px;color:#52617e}
+    .placeholder .icon{font-size:54px}.placeholder strong{display:block;font-size:20px;color:var(--navy);margin:8px}
+    .photo-controls{text-align:center;padding:13px 5px 3px}
+    .upload{display:inline-block;background:#edf2ff;color:#244889;padding:9px 18px;border-radius:25px;font-size:13px;font-weight:800;cursor:pointer}
+    .upload input{display:none}
+    .caption{font-size:12px;color:#8791a5;margin:9px 0 0}
+    .photo-card{max-width:900px;margin:35px auto 0;background:white;border:1px solid #e9edf5;border-radius:25px;padding:14px;box-shadow:0 15px 45px #17233f12}
+    .photo-frame{position:relative;width:100%;height:clamp(280px,52vw,590px);min-height:280px;display:flex;align-items:stretch;justify-content:stretch;border-radius:17px;overflow:hidden;background:#e9efff;border:2px dashed #c7d2e8}
+    .photo-frame img{display:block;width:100%;height:100%;max-height:none;object-fit:fill;object-position:center}
+    .placeholder{text-align:center;padding:50px 20px;color:#52617e}
+    .placeholder .icon{font-size:54px}.placeholder strong{display:block;font-size:20px;color:var(--navy);margin:8px}
+    .photo-controls{text-align:center;padding:13px 5px 3px}
+    .upload{display:inline-block;background:#edf2ff;color:#244889;padding:9px 18px;border-radius:25px;font-size:13px;font-weight:800;cursor:pointer}
+    .upload input{display:none}
+    .caption{font-size:12px;color:#8791a5;margin:9px 0 0}
+footer{text-align:center;padding:20px;color:#718096;font-size:12px}
+@media(max-width:650px){
+ header{padding:15px;flex-wrap:wrap}.brand img{width:88px}.sponsor{font-size:11px;padding:7px 12px}
+ main{padding:0 12px}.hero{padding:38px 15px;border-radius:21px}
+ .ticker-heading h2{font-size:22px}.student{min-width:205px}
+ .awards{grid-template-columns:1fr}.teacher{gap:13px;padding:13px}
+ .teacher-photo{width:112px;height:112px;flex-basis:112px}
+ .teacher-info h2{font-size:18px}.teacher-info p{font-size:13px}
+}
+@media(prefers-reduced-motion:reduce){.ticker-track{animation:none}}
+
+/* Compact Delta hero header */
+.hero{padding:18px 24px 30px}
+.hero-top{display:flex;align-items:center;justify-content:space-between;gap:16px;position:relative;z-index:2;margin-bottom:12px}
+.brand{display:flex;align-items:center;gap:10px;color:#fff;text-align:left}
+.brand img{width:58px;height:58px;object-fit:contain;background:#fff;border-radius:10px;padding:4px}
+.brand-name{display:flex;flex-direction:column;line-height:1.35}
+.brand .brand-ar{font-size:18px;font-weight:900;color:#fff}
+.brand .brand-en{font-size:11px;letter-spacing:1px;color:#dceaf7}
+.site-controls{display:flex;gap:8px;align-items:center}
+.site-controls button{border:1px solid #ffffff80;background:#ffffff18;color:#fff;border-radius:22px;padding:8px 13px;font:700 12px Cairo,Arial;cursor:pointer;transition:background .2s,transform .2s}
+.site-controls button:hover{background:#ffffff32;transform:translateY(-2px)}
+.teacher{justify-content:center;text-align:center}
+.teacher-info{width:100%;text-align:center}
+.photo-frame{min-height:240px}
+.photo-frame img{display:block;width:100%;height:auto;max-height:min(72vh,680px);object-fit:contain;object-position:center}
+.excellence-ribbon{position:absolute;z-index:3;top:16px;left:0;background:linear-gradient(135deg,#c9a34a,#f3d98d);color:#061b49;padding:9px 22px 9px 15px;font-size:13px;font-weight:900;box-shadow:0 5px 14px #061b4930;border-radius:0 20px 20px 0}
+body.dark{--ink:#e8eef8;background:linear-gradient(145deg,#0b1424,#111f35 55%,#0c1a2c);color:#e8eef8}
+body.dark .intro h2,body.dark .closing{color:#e6efff}
+body.dark .intro p,body.dark .teacher-info p{color:#c0ccdc}
+body.dark .ticker-section,body.dark .student,body.dark .awards div,body.dark .teacher,body.dark .photo-card{background:#172740;border-color:#30445e}
+body.dark .ticker-heading h2,body.dark .student strong,body.dark .teacher-info h2{color:#e8f1ff}
+body.dark .ticker-heading p,body.dark .awards span,body.dark footer{color:#bdcadd}
+body.dark .student small{background:#263e5c;color:#e8f1ff}
+body.dark .photo-frame{background:#1c2c43;border-color:#536783}
+.photo-card{max-width:900px;margin:35px auto 0;background:white;border:1px solid #e9edf5;border-radius:25px;padding:14px;box-shadow:0 15px 45px #17233f12}
+    .photo-frame{position:relative;width:100%;height:clamp(280px,52vw,590px);min-height:280px;display:flex;align-items:stretch;justify-content:stretch;border-radius:17px;overflow:hidden;background:#e9efff;border:2px dashed #c7d2e8}
+    .photo-frame img{display:block;width:100%;height:100%;max-height:none;object-fit:fill;object-position:center}
+    .placeholder{text-align:center;padding:50px 20px;color:#52617e}
+    .placeholder .icon{font-size:54px}.placeholder strong{display:block;font-size:20px;color:var(--navy);margin:8px}
+    .photo-controls{text-align:center;padding:13px 5px 3px}
+    .upload{display:inline-block;background:#edf2ff;color:#244889;padding:9px 18px;border-radius:25px;font-size:13px;font-weight:800;cursor:pointer}
+    .upload input{display:none}
+    .caption{font-size:12px;color:#8791a5;margin:9px 0 0}
+footer{text-align:center;padding:20px;color:#718096;font-size:12px}
+@media(max-width:650px){
+ header{padding:0;flex-wrap:nowrap}.site-header{padding:14px 12px 18px}.brand img{width:76px;height:76px}.site-header .hero{padding:10px 8px 14px}.sponsor{font-size:11px;padding:7px 12px}
+ main{padding:0 12px}.hero{padding:38px 15px;border-radius:21px}
+ .ticker-heading h2{font-size:22px}.student{min-width:205px}
+ .awards{grid-template-columns:1fr}.teacher{gap:13px;padding:13px}
+ .teacher-photo{width:112px;height:112px;flex-basis:112px}
+ .teacher-info h2{font-size:18px}.teacher-info p{font-size:13px}
+}
+@media(max-width:650px){
+ .hero{padding:14px 13px 28px}
+ .hero-top{align-items:flex-start;flex-direction:column;margin-bottom:18px}
+ .brand img{width:48px;height:48px}
+ .brand .brand-ar{font-size:16px}
+ .site-controls{width:100%;justify-content:flex-start}
+ .site-controls button{padding:7px 11px}
+ .excellence-ribbon{top:10px;font-size:11px;padding:7px 16px 7px 11px}
+}
+
+
+/* Visible animated programming symbols, layered behind all page content. */
+#code-rain{position:fixed;inset:0;width:100%;height:100%;z-index:2;pointer-events:none;opacity:.78}
+body>.topline,body>main,body>footer{position:relative;z-index:3}
+.brand-en:empty{display:none}
+@media(prefers-reduced-motion:reduce){#code-rain{opacity:.62}}
+\n</style>
+</head>
+<body>
+<canvas id="code-rain" aria-hidden="true"></canvas>
+<div class="topline"></div>
+<main>
+  <section class="hero">
+<div class="hero-top">
+  <div class="brand">
+    <img src="https://static.wixstatic.com/media/fee09b_0b513cad6481460c87b995616764491a~mv2_d_2051_2741_s_2.png/v1/fill/w_2500,h_3341,al_c/fee09b_0b513cad6481460c87b995616764491a~mv2_d_2051_2741_s_2.png" alt="Delta Schools logo">
+    <div class="brand-name"><span class="brand-ar">مدارس دلتا</span><span class="brand-en">DELTA SCHOOLS</span></div>
+  </div>
+  <div class="site-controls">
+    <button type="button" id="languageToggle">English</button>
+    <button type="button" id="themeToggle">🌙 <span class="theme-label">الوضع الداكن</span></button>
+  </div>
+</div>
+
+    <div class="eyebrow" id="eyebrow">احتفال بالإنجاز والتميّز ✨</div>
+    <h1><span id="pageTitle">أوائل</span> <span>Grade 8</span></h1>
+            <p class="subtitle" id="subtitle1">في اختبار البرمجة والذكاء الاصطناعي</p>
+
+    <p class="subtitle" id="subtitle2">أبطال الدرجة النهائية — الصف الثاني المتوسط</p>
+ 
+    <div class="stars">★ ★ ★ ★ ★</div>
+  </section>
+  <section class="intro">
+    <h2 id="introTitle">أنتم فخرنا يا أبطال! 🏆</h2>
+    <p id="introText">بكل فخر وسعادة، نحتفل بطلاب Grade 8C الذين حققوا الدرجة النهائية في اختبار البرمجة والذكاء الاصطناعي. شكرًا لاجتهادكم وتميّزكم، ونتمنى لكم دوام النجاح والتفوق.</p>
+  </section>
+  <section class="ticker-section">
+    <div class="ticker-heading"><h2 id="tickerTitle">🏆 الأوائل الأبطال</h2><p id="tickerSub">الدرجة النهائية — 15 من 15</p></div>
+    <div class="ticker-viewport" aria-label="شريط أسماء الطلاب يتحرك من اليمين إلى اليسار">
+      <div class="ticker-track">
+        <div class="ticker-group"><div class="student"><span class="medal">🏆</span><strong>إياد هشام احمد عبد الفتاح</strong><small>15 / 15</small></div>
+<div class="student"><span class="medal">🏆</span><strong>احمد محمد احمد عبدالهادى السيد</strong><small>15 / 15</small></div>
+<div class="student"><span class="medal">🏆</span><strong>احمد محمود محمد محمد الطنطاوي</strong><small>15 / 15</small></div>
+<div class="student"><span class="medal">🏆</span><strong>ادم عبدالرحمن شوقي محمد الطباخ</strong><small>15 / 15</small></div>
+<div class="student"><span class="medal">🏆</span><strong>حذيفه محمد جمال عبدالصمدالبكل</strong><small>15 / 15</small></div>
+<div class="student"><span class="medal">🏆</span><strong>حمزة محمد عبداللطيف عبدالحميد</strong><small>15 / 15</small></div>
+<div class="student"><span class="medal">🏆</span><strong>زياد احمد عبد العزيز محمد</strong><small>15 / 15</small></div>
+<div class="student"><span class="medal">🏆</span><strong>سيف هيثم سالمة عبدالحميد</strong><small>15 / 15</small></div>
+<div class="student"><span class="medal">🏆</span><strong>عبد الرحمن احمد السيد احمد ابوفوده</strong><small>15 / 15</small></div>
+<div class="student"><span class="medal">🏆</span><strong>عبدالرحمن احمد عبدالوهاب عبدالمجيد</strong><small>15 / 15</small></div>
+<div class="student"><span class="medal">🏆</span><strong>عبدالرحمن حسين سامي حسين حسن محمد</strong><small>15 / 15</small></div>
+<div class="student"><span class="medal">🏆</span><strong>على محمد جمعه اسماعيل على الشافعى</strong><small>15 / 15</small></div>
+<div class="student"><span class="medal">🏆</span><strong>عمر إيهاب على السيد محمود</strong><small>15 / 15</small></div>
+<div class="student"><span class="medal">🏆</span><strong>عمر ضياء فوزي خاطر</strong><small>15 / 15</small></div>
+<div class="student"><span class="medal">🏆</span><strong>عمر عالاء محمد جلال على</strong><small>15 / 15</small></div>
+<div class="student"><span class="medal">🏆</span><strong>عمر محمد عبد الخالق محمد خليفة</strong><small>15 / 15</small></div>
+<div class="student"><span class="medal">🏆</span><strong>كريم احمد حسن المتولي</strong><small>15 / 15</small></div>
+<div class="student"><span class="medal">🏆</span><strong>مالك احمد محمد توفيق</strong><small>15 / 15</small></div>
+<div class="student"><span class="medal">🏆</span><strong>معاذ محمد سيد فتحي علي حسن</strong><small>15 / 15</small></div>
+<div class="student"><span class="medal">🏆</span><strong>ياسين حازم جوده على جوده</strong><small>15 / 15</small></div>
+<div class="student"><span class="medal">🏆</span><strong>يوسف محمد إبراهيم عزالدين علي</strong><small>15 / 15</small></div>
+<div class="student"><span class="medal">🏆</span><strong>يوسف هيثم رافت عبد السالم احمد</strong><small>15 / 15</small></div></div>
+        <div class="ticker-group" aria-hidden="true"><div class="student"><span class="medal">🏆</span><strong>إياد هشام احمد عبد الفتاح</strong><small>15 / 15</small></div>
+<div class="student"><span class="medal">🏆</span><strong>احمد محمد احمد عبدالهادى السيد</strong><small>15 / 15</small></div>
+<div class="student"><span class="medal">🏆</span><strong>احمد محمود محمد محمد الطنطاوي</strong><small>15 / 15</small></div>
+<div class="student"><span class="medal">🏆</span><strong>ادم عبدالرحمن شوقي محمد الطباخ</strong><small>15 / 15</small></div>
+<div class="student"><span class="medal">🏆</span><strong>حذيفه محمد جمال عبدالصمدالبكل</strong><small>15 / 15</small></div>
+<div class="student"><span class="medal">🏆</span><strong>حمزة محمد عبداللطيف عبدالحميد</strong><small>15 / 15</small></div>
+<div class="student"><span class="medal">🏆</span><strong>زياد احمد عبد العزيز محمد</strong><small>15 / 15</small></div>
+<div class="student"><span class="medal">🏆</span><strong>سيف هيثم سالمة عبدالحميد</strong><small>15 / 15</small></div>
+<div class="student"><span class="medal">🏆</span><strong>عبد الرحمن احمد السيد احمد ابوفوده</strong><small>15 / 15</small></div>
+<div class="student"><span class="medal">🏆</span><strong>عبدالرحمن احمد عبدالوهاب عبدالمجيد</strong><small>15 / 15</small></div>
+<div class="student"><span class="medal">🏆</span><strong>عبدالرحمن حسين سامي حسين حسن محمد</strong><small>15 / 15</small></div>
+<div class="student"><span class="medal">🏆</span><strong>على محمد جمعه اسماعيل على الشافعى</strong><small>15 / 15</small></div>
+<div class="student"><span class="medal">🏆</span><strong>عمر إيهاب على السيد محمود</strong><small>15 / 15</small></div>
+<div class="student"><span class="medal">🏆</span><strong>عمر ضياء فوزي خاطر</strong><small>15 / 15</small></div>
+<div class="student"><span class="medal">🏆</span><strong>عمر عالاء محمد جلال على</strong><small>15 / 15</small></div>
+<div class="student"><span class="medal">🏆</span><strong>عمر محمد عبد الخالق محمد خليفة</strong><small>15 / 15</small></div>
+<div class="student"><span class="medal">🏆</span><strong>كريم احمد حسن المتولي</strong><small>15 / 15</small></div>
+<div class="student"><span class="medal">🏆</span><strong>مالك احمد محمد توفيق</strong><small>15 / 15</small></div>
+<div class="student"><span class="medal">🏆</span><strong>معاذ محمد سيد فتحي علي حسن</strong><small>15 / 15</small></div>
+<div class="student"><span class="medal">🏆</span><strong>ياسين حازم جوده على جوده</strong><small>15 / 15</small></div>
+<div class="student"><span class="medal">🏆</span><strong>يوسف محمد إبراهيم عزالدين علي</strong><small>15 / 15</small></div>
+<div class="student"><span class="medal">🏆</span><strong>يوسف هيثم رافت عبد السالم احمد</strong><small>15 / 15</small></div></div>
+      </div>
+    </div>
+   </section>
+    <section class="photo-card">
+      <div class="photo-frame"><div class="excellence-ribbon">   فصل الأبطال </div>
+        <img src="gr8c.jpeg" id="classPhoto" alt="صورة طلاب Grade 8C">
+        <div class="placeholder" id="placeholder" style="display:none"><strong>صورة الفصل</strong><p>ضع ملف gr8c.jpeg بجانب ملف الموقع لعرض صورة الفصل.</p></div>
+      </div>
+       
+    </section>
+  <section class="awards">
+    <div><b>22</b><span id="award1">طالبًا من الأوائل</span></div>
+    <div><b>15 / 15</b><span id="award2">الدرجة النهائية</span></div>
+    <div><b>8C</b><span id="award3">فصل الأبطال</span></div>
+  </section>
+  <section class="closing" id="closing">شكرًا لكم يا أبطال، رفعتم رؤوسنا وأسعدتمونا بإنجازكم.<br>استمروا في التألق، فالقادم أجمل بإذن الله! 💙</section>
+  <section class="teacher">
+    <div class="teacher-info">
+      <h2 id="teacherName">معلمكم كريم وحيد</h2>
+      <p id="teacherNote">مع خالص التقدير والفخر لطلابنا المتميزين</p>
+      <a id="portfolio" href="https://karimwaheed420-eng.github.io/Karim.Waheed.SA/" target="_blank" rel="noopener">  البورتفوليو الشخصي ↗</a>
+    </div>
+  </section>
+</main>
+<footer id="footer">أوائل Grade 8C · مدارس دلتا · صُنع بكل فخر احتفالًا بإنجازكم © Copyright 2026</footer>
+
+<script>
+(function(){
+ const ar={
+ eyebrow:'احتفال بالإنجاز والتميّز ✨',pageTitle:'أوائل',
+ subtitle1:'في اختبار البرمجة والذكاء الاصطناعي',
+ subtitle2:'أبطال الدرجة النهائية — الصف الثاني المتوسط',
+ introTitle:'أنتم فخرنا يا أبطال! 🏆',
+ introText:'بكل فخر وسعادة، نحتفل بطلاب Grade 8C الذين حققوا الدرجة النهائية في اختبار البرمجة والذكاء الاصطناعي. شكرًا لاجتهادكم وتميّزكم، ونتمنى لكم دوام النجاح والتفوق.',
+ tickerTitle:'🏆 الأوائل الأبطال',tickerSub:'الدرجة النهائية — 15 من 15',
+ award1:'طالبًا من الأوائل',award2:'الدرجة النهائية',award3:'فصل الأبطال',
+ closing:'شكرًا لكم يا أبطال، رفعتم رؤوسنا وأسعدتمونا بإنجازكم.<br>استمروا في التألق، فالقادم أجمل بإذن الله! 💙',
+ teacherName:'معلمكم كريم وحيد',teacherNote:'مع خالص التقدير والفخر لطلابنا المتميزين',
+ portfolio:'البورتفوليو الشخصي ↗',footer:'أوائل Grade 8C · مدارس دلتا · صُنع بكل فخر احتفالًا بإنجازكم © Copyright 2026',ribbon:'   فصل الأبطال',brandAr:'مدارس دلتا',brandEn:'DELTA SCHOOLS'
+ };
+ const en={
+ eyebrow:'Celebrating Achievement and Excellence ✨',pageTitle:'Top Achievers',
+ subtitle1:'Programming and Artificial Intelligence Assessment',
+ subtitle2:'Grade 8 Full-Mark Achievers',
+ introTitle:'Congratulations, Grade 8C! 🏆',
+ introText:'We are proud to celebrate our Grade 8C students who earned a perfect score on the Programming and Artificial Intelligence assessment. Your dedication and hard work have paid off. Keep learning, growing, and achieving.',
+ tickerTitle:'🏆 Grade 8C Top Achievers',tickerSub:'Perfect Score — 15 out of 15',
+ award1:'Outstanding Students',award2:'Perfect Score',award3:'Grade 8C',
+ closing:'Congratulations on an outstanding achievement. You have made us proud!<br>Keep aiming high — your next success is just ahead. 💙',
+ teacherName:'Your Teacher, Karim Waheed',teacherNote:'With appreciation and pride in all that you have achieved.',
+ portfolio:'View My Portfolio ↗',footer:'Grade 8C Top Achievers · Delta Schools · Celebrating your success with pride © 2026',ribbon:'EXCELLENCE',brandAr:'Delta Schools',brandEn:''
+ };
+
+ const studentNames=[
+  'Eyad Hisham Ahmed Abdel Fattah','Ahmed Mohamed Ahmed Abdel Hady El Sayed',
+  'Ahmed Mahmoud Mohamed Mohamed El Tantawy','Adam Abdelrahman Shawky Mohamed El Tabbakh',
+  'Huzayfah Mohamed Gamal Abdelsamad El Bakal','Hamza Mohamed Abdellatif Abdelhamid',
+  'Ziad Ahmed Abdelaziz Mohamed','Seif Haitham Salama Abdelhamid',
+  'Abdelrahman Ahmed El Sayed Ahmed Abou Fouda','Abdelrahman Ahmed Abdelwahab Abdelmagid',
+  'Abdelrahman Hussein Samy Hussein Hassan Mohamed','Ali Mohamed Gomaa Ismail Ali El Shafei',
+  'Omar Ehab Ali El Sayed Mahmoud','Omar Diaa Fawzy Khater','Omar Alaa Mohamed Galal Ali',
+  'Omar Mohamed Abdelkhalek Mohamed Khalifa','Karim Ahmed Hassan El Metwally',
+  'Malek Ahmed Mohamed Tawfik','Moaz Mohamed Sayed Fathy Ali Hassan',
+  'Yassin Hazem Gouda Ali Gouda','Youssef Mohamed Ibrahim Ezzeldin Ali',
+  'Youssef Haitham Raafat Abdelsalam Ahmed'
+ ];
+ function translateStudents(lang){
+  document.querySelectorAll('.ticker-group').forEach(group=>{
+   group.querySelectorAll('.student strong').forEach((node,i)=>{
+    const index=i%studentNames.length;
+    if(lang==='en') node.textContent=studentNames[index];
+    else node.textContent=arabicStudentNames[index];
+   });
+  });
+ }
+ const arabicStudentNames=[
+  'إياد هشام احمد عبد الفتاح','احمد محمد احمد عبدالهادى السيد',
+  'احمد محمود محمد محمد الطنطاوي','ادم عبدالرحمن شوقي محمد الطباخ',
+  'حذيفه محمد جمال عبدالصمدالبكل','حمزة محمد عبداللطيف عبدالحميد',
+  'زياد احمد عبد العزيز محمد','سيف هيثم سالمة عبدالحميد',
+  'عبد الرحمن احمد السيد احمد ابوفوده','عبدالرحمن احمد عبدالوهاب عبدالمجيد',
+  'عبدالرحمن حسين سامي حسين حسن محمد','على محمد جمعه اسماعيل على الشافعى',
+  'عمر إيهاب على السيد محمود','عمر ضياء فوزي خاطر','عمر عالاء محمد جلال على',
+  'عمر محمد عبد الخالق محمد خليفة','كريم احمد حسن المتولي',
+  'مالك احمد محمد توفيق','معاذ محمد سيد فتحي علي حسن',
+  'ياسين حازم جوده على جوده','يوسف محمد إبراهيم عزالدين علي',
+  'يوسف هيثم رافت عبد السالم احمد'
+ ];
+ function language(lang){
+  const d=lang==='en'?en:ar;
+  Object.keys(d).forEach(id=>{const el=document.getElementById(id);if(el)el.innerHTML=d[id];});
+  const brandAr=document.querySelector('.brand-ar'),brandEn=document.querySelector('.brand-en');
+  if(brandAr)brandAr.textContent=d.brandAr;if(brandEn)brandEn.textContent=d.brandEn;
+  translateStudents(lang);
+  document.documentElement.lang=lang;document.documentElement.dir=lang==='en'?'ltr':'rtl';
+  document.getElementById('languageToggle').textContent=lang==='en'?'العربية':'English';
+  document.querySelectorAll('.excellence-ribbon').forEach(el=>el.textContent=d.ribbon);
+  localStorage.setItem('delta-language',lang);themeLabel();
+ }
+ function themeLabel(){
+  const enMode=document.documentElement.lang==='en',dark=document.body.classList.contains('dark');
+  document.querySelector('.theme-label').textContent=dark?(enMode?'Light mode':'الوضع الفاتح'):(enMode?'Dark mode':'الوضع الداكن');
+  document.getElementById('themeToggle').firstChild.textContent=dark?'☀️ ':'🌙 ';
+ }
+ document.getElementById('languageToggle').addEventListener('click',()=>language(document.documentElement.lang==='ar'?'en':'ar'));
+ document.getElementById('themeToggle').addEventListener('click',()=>{
+  document.body.classList.toggle('dark');localStorage.setItem('delta-theme',document.body.classList.contains('dark')?'dark':'light');themeLabel();
+ });
+ language(localStorage.getItem('delta-language')||'ar');
+ if(localStorage.getItem('delta-theme')==='dark')document.body.classList.add('dark');
+ themeLabel();
+ const photo=document.getElementById('classPhoto'),placeholder=document.getElementById('placeholder');
+ if(photo){photo.addEventListener('load',()=>placeholder.style.display='none');photo.addEventListener('error',()=>placeholder.style.display='block');}
+ // Floating code fragments, kept subtle and outside the page's interactive layer.
+ const canvas=document.getElementById('code-rain');
+ if(canvas){
+  const ctx=canvas.getContext('2d');
+  const snippets=['</HTML>','{ CSS }','const','=>','function()','HTML','CSS','JavaScript','0101','&&','<div>','[ ]','return;','</>','01'];
+  let width=0,height=0,items=[],raf=0,last=0;
+  function resize(){
+   const dpr=Math.min(window.devicePixelRatio||1,2);width=window.innerWidth;height=window.innerHeight;
+   canvas.width=Math.round(width*dpr);canvas.height=Math.round(height*dpr);
+   canvas.style.width=width+'px';canvas.style.height=height+'px';ctx.setTransform(dpr,0,0,dpr,0,0);
+   const count=Math.max(24,Math.min(58,Math.round(width/25)));
+   items=Array.from({length:count},(_,i)=>({text:snippets[i%snippets.length],x:Math.random()*width,y:Math.random()*height,speed:.22+Math.random()*.48,size:15+Math.random()*11,phase:Math.random()*6.28}));
+  }
+  function draw(now){
+   if(now-last<32){raf=requestAnimationFrame(draw);return;}last=now;ctx.clearRect(0,0,width,height);
+   const dark=document.body.classList.contains('dark');
+   items.forEach(item=>{item.y-=item.speed;if(item.y<-30){item.y=height+20;item.x=Math.random()*width;}
+    ctx.globalAlpha=.58+.30*Math.sin(now*.0007+item.phase);ctx.font=`700 ${item.size}px monospace`;
+    ctx.fillStyle=dark?'#8fdcff':'#17618d';ctx.shadowColor=dark?'#8fdcff':'#17618d';ctx.shadowBlur=5;
+    ctx.fillText(item.text,item.x,item.y);ctx.shadowBlur=0;
+   });ctx.globalAlpha=1;raf=requestAnimationFrame(draw);
+  }
+  resize();window.addEventListener('resize',resize,{passive:true});
+  document.addEventListener('visibilitychange',()=>{if(document.hidden){cancelAnimationFrame(raf);raf=0;}else if(!raf)raf=requestAnimationFrame(draw);});
+  raf=requestAnimationFrame(draw);
+ }
+})();
+</script>
+
+</body>
+</html>
